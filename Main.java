@@ -33,7 +33,7 @@ class AmphibiousPlane implements Amphibious, AirVehicle {
 class ElectricCar extends ElectricVehicle {
     @Override
     public String batteryType() {
-        return "Lithium-ion";
+        return "Aluminium-ion";
     }
 }
 
@@ -41,7 +41,7 @@ class ElectricCar extends ElectricVehicle {
  class ElectricBike extends ElectricVehicle {
     @Override
     public String batteryType() {
-        return "Lead-acid";
+        return "Calcium battery";
     }
 }
 
